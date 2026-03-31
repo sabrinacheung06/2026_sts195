@@ -10,6 +10,8 @@
 >
 > `git stash pop`
 
+---
+
 > [!CAUTION]
 > Make sure to always use `git pull` before making changes to a git repo connected to GitHub!
 
@@ -18,6 +20,7 @@
 The goal of this All-class All-project repository is to encourage more collaboration between groups:
 
 Suggestions:
+
 1. Sharing documentation for projects (previous cohorts of students liked hearing about what others were doing during standups - otherwise, they were isolated to their different groups)
 2. Sharing resources/collaborating
 3. Sharing student-made functions
@@ -29,36 +32,39 @@ Suggestions:
 - Make an issue (Remote/GitHub)
   - Title the issue "<YourName>'s README issue"
   - In the description, add some details on what you are doing and why
+
 - Clone this repo (Local/Git)
   - `git clone <gitrepo>`
-  - `cd 2025-STS-195`
+  - `cd 2026-sts195`
+
 - Create a branch using your name (Local/Git)
   - `git branch`
-  - `git checkout -b <yourname>`
+  - `git checkout -b <yourname>` or `git branch <yourname>` + `git checkout <yourname>`
   - `git branch`
-- Create a draft README file (Local/Git)
-  - basic overview of your project
-  - what you would want other students to know about it
-  - short, simple pitch for the project
+
+- Create a draft README file (Local/Git).
+  - > [Please review markdown formatting for more tricks](https://github.com/im-luka/markdown-cheatsheet)
   - `vi README-<yourname>.md`
-    >```
-    ># A Title Header has one #
-    >
-    >## A section header has ##
-    >A short and simple pitch of what I understand about my project is ...
-    >
-    >```
-    [Please review markdown formatting for more tricks](https://github.com/im-luka/markdown-cheatsheet)
+  - In Markdown, write:
+    - a basic overview of your skills,
+      - writing documentation
+      - python: web scraping and OCR
+      - R: Database management and normalization
+    - short, simple overview of projects you have worked on.
+
+- Track and commit changes.
   - `git status`
   - `git add <readme-file>`
   - `git commit -m "adding my readme file"`
   - `git log`
   - `git push` or `git push -u origin <yourname>`
+
 - Create a pull request (Remote/GitHub)
   - Find your branch (Green dropdown on the upper left)
   - Click `Contribute` > `Open pull request`
   - Title "Adding <yourname>'s readme markdown file for posterity"
-    - Optionally include [WIP] or [MRG] to preface your title (Explain the current intention of the pull request)
+    > The current intention of the pull request may be explained
+    > by optionally including [WIP] or [MRG] to preface your PR's title
   - Add a description and [make sure to include](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue):
     - `closes, closed, fix, fixes, fixed, resolve, resolves, or resolved`
     - followed by your issue number
@@ -68,10 +74,11 @@ Suggestions:
 
 ## Using Issues
 
-Issues may be more than their name. They can become a repository of code snippets and discussions. This information becomes easily searchable and allows you to jump quickly to the information you need. 
-This can be enhanced by linking similar issues with the `#` and the issue number.  
+Issues may be more than their name intends. GitHub's issue tracker may become its own repository of code snippets and discussions centered around the GitHub repository. This information becomes easily searchable and allows you to jump quickly to the information you need.
 
-Try adding interesting material and links to an issue.
+This can be enhanced by linking similar issues with the `#` and the issue number. This also makes linking PR and other repository material to the current GitHub Repostory.
+
+Try creating an issue in this repo. Add any interesting material for your projects and link to other public repositories.
 
 ## Best practices
 
