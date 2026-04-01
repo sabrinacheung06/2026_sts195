@@ -39,7 +39,7 @@ Suggestions:
 
 - Create a branch using your name (Local/Git)
   - `git branch`
-  - `git checkout -b <yourname>` or `git branch <yourname>` + `git checkout <yourname>`
+  - `git checkout -b <yourname>` or `git branch <yourname>` + `git checkout <yourname>` or `git switch -c <yourname>`
   - `git branch`
 
 - Create a draft README file (Local/Git).
